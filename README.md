@@ -2,10 +2,9 @@
 
 From : [Source repository](https://github.com/springload/form-validation-problem)
 
-	I tackled this one in plain old vanilla JS, please let me know if you want a similar challenge with a framework of your choice.
+I tackled this one in plain old vanilla JS, please let me know if you want a similar challenge with a framework of your choice.
 
-	As it's vanilla JS I went for a stateless version. DOM interaction tend to be expensive but as it is just a handful of those, it should be fine.
-
+As it's vanilla JS I went for a stateless version. DOM interaction tend to be expensive but as it is just a handful of those, it should be fine.
 
 ## Some potential enhancements
 
@@ -24,8 +23,8 @@ From : [Source repository](https://github.com/springload/form-validation-problem
 * Everything gets tricky when you scale in vanilla JS without framework. I would definitively pick one even if the project is supposed to stay small. Keeping a state in a clean way is made easy by every recent frameworks, in this kind of scenario it spares a part of the DOM interactions.
 
 ### Testing
-	
-* The code is currently made with static services. For those unit tests would be great (at least when it doesn't interact with the DOM). Karma / Jasmine for would be a classical choice.
+
+* The code is currently made with static services. For those unit tests would be great (at least when it doesn't interact with the DOM). Karma / Jasmine would be a classical choice.
 * User tests are pretty awesome for forms. I would probably go Selenium / Protractor, or even trying [Cypress](https://www.cypress.io/) that I still need to check out.
 
 ### Browser support
