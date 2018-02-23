@@ -14,7 +14,7 @@ As it's vanilla JS I went for a stateless version. DOM interaction tend to be ex
 * The current visual feedback is not clear about the requirements. It would be nice to :
 	* Display them clearly from the start (potentially a onFocus [tooltip](https://popper.js.org/))
 	* To make sure our feedback is clear when our validation fails
-* I read "Password must be longer than 8 characters" as 9 characters minimum which is a pretty rare threshold. But I may have read it the wrong way.
+* I read the password validation rule to be 9 characters minimum.
 * onBlur is also a very good event to do checks. It's always more frustrating for the user when checks are only performed at the end. In general, the further back a user has to go to modify something, the more frustrating it will be.
 
 ### Code
@@ -25,7 +25,7 @@ As it's vanilla JS I went for a stateless version. DOM interaction tend to be ex
 ### Testing
 
 * The code is currently made with static services. For those unit tests would be great (at least when it doesn't interact with the DOM). Karma / Jasmine would be a classical choice.
-* User tests are pretty awesome for forms. I would probably go Selenium / Protractor, or even trying [Cypress](https://www.cypress.io/) that I still need to check out.
+* User tests are pretty awesome for forms. I would probably go Selenium / Protractor, or even trying [Cypress](https://www.cypress.io/).
 
 ### Browser support
 
